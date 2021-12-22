@@ -170,7 +170,59 @@
 </div>
 </div>
 
+<!-- Assign Folder Modal -->
 
+
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assignFolder">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="assignFolder" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Assign Folder</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-auto">
+                <select class="form-control mt-2" name="role-type" name="role" >
+                    <option value="0">Choose Job Folder</option>
+                    <option value="one" class="form-check-input" type="checkbox">Folder One</option>
+                    <option value="Two">Folder Two</option>
+                    <option value="Three">Folder Three</option>
+                    <option value="Four">Folder Four</option>
+                    <option value="Five">Folder Five</option>
+                    <option value="Six">Folder Six</option>
+
+                </select>
+            </div>
+</br>
+            <div class="col-auto">
+                <select class="form-control" name="role-type" name="role">
+                    <option value="0">Choose Technician</option>
+                    <option value="one" class="form-check-input" type="checkbox">Folder One</option>
+                    <option value="Two">Folder Two</option>
+                    <option value="Three">Folder Three</option>
+                    <option value="Four">Folder Four</option>
+                    <option value="Five">Folder Five</option>
+                    <option value="Six">Folder Six</option>
+
+                </select>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
