@@ -3,7 +3,7 @@
 <section class="home-section">
     <?php include_once('navbar.php') ?>
     </br></br></br><br>
-    ghghjhhj
+  
 
     <form id="job_folder">
         <h5 class="text-dark font-weight-bolder my-4 col-3">Job Folder</h5>
