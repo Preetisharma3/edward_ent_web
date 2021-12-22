@@ -4,14 +4,12 @@
     <?php include_once('navbar.php') ?>
     </br></br></br><br>
 
-<<<<<<< HEAD
-    <form>
-=======
+
 
 
     <form id="job_folder">
 
->>>>>>> 18d16c7c7bf20fcde8c84c1b59c225863b665667
+
         <h5 class="text-dark font-weight-bolder my-4 col-3">Job Folder</h5>
         <div class="form-class align-items-center d-flex">
             <div class="col-auto">
