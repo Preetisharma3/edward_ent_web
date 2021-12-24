@@ -117,7 +117,7 @@ function fetchTemplate() {
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Template Name</th>
-                        <th scope="col">Active/Inactive</th>
+                         <th scope="col">Status</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>`;
@@ -132,10 +132,12 @@ function fetchTemplate() {
                         <td>${data.id}</td>
                         <td>${data.template_name}</td>
                         <td>
-                                <label class="switch">
-                                    <input type="checkbox">
-                                    <span class=" slider round"></span>
-                                </label>
+                                    <label class="switch">
+                                            <input type="checkbox" ${
+                                              data.status == 1 ? "checked" : ""
+                                            } >
+                                            <span class="slider round"></span>
+                                    </label>
                             </td>
                        
                         <td> 
@@ -169,3 +171,27 @@ function fetchTemplate() {
 }
 
 fetchTemplate();
+
+//GetQuestions
+function fetchQuestions() {
+    var newData = "";
+    fetch(`http://localhost/edward_ent/public/api/v1/getQuestion`, {
+            headers: {
+                "Content-Type": "application/json",
+                // 'Content-Type': 'application/x-www-form-urlencoded',
+            },
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            console.log(data);
+            data.forEach(function(data, index) {
+                newData += `<option value="${data.id}">${data.question_type}</option>`;
+            });
+            document.getElementById("quetype").innerHTML = newData;
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+
+}
+fetchQuestions();

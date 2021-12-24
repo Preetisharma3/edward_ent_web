@@ -146,7 +146,7 @@
                     <thead class="thead-dark " align="center">
                         <tr>
                             <th scope="col">Template name</th>
-                            <th scope="col">Active/Inactive</th>
+                            <th scope="col">Status</th>
 
                             <th scope="col">Action</th>
                         </tr>
@@ -154,7 +154,7 @@
                     <tbody id="showjvf" align="center">
 
                         <tr>
-                            <td>Basic Info</td>
+                            <td></td>
                             <td>
                                 <label class="switch">
                                     <input type="checkbox">
