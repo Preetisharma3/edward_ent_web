@@ -195,6 +195,3 @@ function fetchQuestions() {
 
 }
 fetchQuestions();
-
-
-hhhhh
