@@ -5,7 +5,7 @@
     </br></br></br><br>
 
     <div>
-        <form>
+       
 
             <div class="form-class align-items-center d-flex my-4">
                 <div class="col-auto">
@@ -17,135 +17,14 @@
                 </div>
 
                 <div class="form-group col-auto ">
-                    <button type="button" class="btn btn-dark"><i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp; &nbsp; Upload Template</button>
 
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Add New Template</button>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#jobvisitmodule">Add New Template</button>
                 </div>
-
-
-
             </div>
 
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Add New Agreement</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-
-
-                        </div>
-                        <div class="modal-body col-12">
-                            <form>
-                                <div class="form-row">
-                                    <div class="form-group col-md-6 ">
-                                        <label for="inputEmail4">Template</label>
-                                        <input type="text" class="form-control" id="fname" name="fname" placeholder="" />
-                                        <h6><span id="first_name" style="color:red;"></span></h6>
-                                    </div>
-
-                                    <div class="form-group col-md-6">
-                                        <label for="inputEmail4">Question Name</label>
-                                        <input type="text" class="form-control" id="lname" name="lname" placeholder="" />
-                                        <h6><span id="last_name" style="color:red;"></span></h6>
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="inputEmail4">Question Type</label>
-                                    <select class="form-control" name="role-type" id="role" name="role">
-
-                                        <option value="one">One Agreement</option>
-                                        <option value="Two">Two Agreement</option>
-                                        <option value="Three">Three Agreement</option>
-                                        <option value="Four">Four Agreement</option>
-                                        <option value="Five">Five Agreement</option>
-                                        <option value="Six">Six Agreement</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-2 my-4">
-                                    <div class="form-group">
-                                        <!-- <label class="form-check-label" for="gridCheck">
-                                                    Check me out
-                                                </label> -->
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                                            <span>Required</span>
-
-                                        </div>
-                                        <label class="container">
-                                            <input type="checkbox" checked="checked">
-                                            <span class="checkmark"></span>
-
-                                        </label>
-                                        <span>Required</span>
-
-                                    </div>
-                                    <fieldset>
-                                        <legend>Choose your interests</legend>
-                                        <div>
-                                            <input type="checkbox" id="coding" name="interest" value="coding">
-                                            <label for="coding">Coding</label>
-                                        </div>
-                                        <div>
-                                            <input type="checkbox" id="music" name="interest" value="music">
-                                            <label for="music">Music</label>
-                                        </div>
-                                    </fieldset>
-                                </div>
-                                <i class="fa fa-trash fa-3x text-danger" aria-hidden="true"></i>
-                                <i class="fas fa-trash" aria-hidden="true"></i>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <label for="inputEmail4">Labal</label>
-                                <input type="text" class="form-control" id="username" name="username" placeholder="" />
-                                <h6><span id="username1" style="color:red;"></span></h6>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputPassword4">Password</label>
-                                <input type="password" class="form-control" id="password" name="password" placeholder="" />
-                                <h6><span id="pass_word" style="color:red;"></span></h6>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            user type
-                            <div class="form-group col-md-6">
-                                <label for="role-type">User type</label>
-                                <select class="form-control" name="role-type" id="role" name="role">
-                                    <option value="Admin">Select User Type</option>
-                                    <option value="Admin">Admin</option>
-                                    <option value="Employee">Employee</option>
-                                    <option value="Technician">Technician</option>
-                                </select>
-                            </div>
-                            <div class="card form-group col-md-6">
-                                <p> Active/Inactive :</p>
-                                <label class="switch">
-                                    <input type="checkbox" id="switch1" name="switch1">
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </div>
-        </form>
-    </div>
-    </div>
-
-    </div>
-    </div>
-    </div>
-
-
-
-
-
-
-    </form>
-
-
-
+        
+            <!-- Content for Job Module -->
     <div class="container">
         <!-- Search form -->
 
@@ -189,5 +68,148 @@
             </div>
         </div>
     </div>
+
+
+    <!-- job visit module modal -->
+
+    
+
+
+<div class="modal fade" id="jobvisitmodule" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add New Template</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <form id="myForm">
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <label for="inputEmail4">Template Name</label>
+                                        <input type="text" class="form-control" id="tname"  />
+                                    </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputAddress2">Question</label>
+                                            <input type="text" class="form-control" id="question"
+                                                 />
+                                        </div>
+                                        <div class="form-group col-md-4 ">
+                                            <label for="gender">Question Type</label>
+                                            <select class="form-control" name="role" id="quetype">
+                                                <option value="0">--Select--</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-check" style="margin-top:35px;margin-left: 10px;">
+                                            <input type="checkbox" class="form-check-input" id="required">
+                                            <label class="form-check-label" for="exampleCheck1">Required</label>            
+                                             </div> 
+                                             </div>
+                                             <div class="form-row">
+                                              <div class="form-check" style="margin-top:35px;margin-left: 10px;">
+                                                    <input type="checkbox" class="form-check-input" id="required">
+                                                    <label class="form-check-label" for="exampleCheck1"></label>            
+                                                     </div> 
+                                            <div class="form-group col-md-11" style="margin-top:-65px;margin-left: 50px;">
+                                                <label for="inputAddress">Lable</label>
+                                                <input type="text" class="form-control" id="lable"
+                                                    placeholder="" />
+                                            </div>                                          
+                                             </div>
+                                             <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputAddress2">Question</label>
+                                                    <input type="text" class="form-control" id="question"
+                                                        placeholder="" />
+                                                </div>
+                                                <div class="form-group col-md-4 ">
+                                                    <label for="gender">Question Type</label>
+                                                    <select class="form-control" name="role" id="quetype">
+                                                        <option value="0">--Select--</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-check" style="margin-top:35px;margin-left: 10px;">
+                                                    <input type="checkbox" class="form-check-input" id="required">
+                                                    <label class="form-check-label" for="exampleCheck1">Required</label>            
+                                                     </div> 
+                                                     </div>
+                                                     <button type="button" class="btn btn-primary"style="margin-top:25px;">
+                                                        Save
+                                                    </button>
+                                                
+                                                    <div style="margin-top: 10px;"> 
+                                                        <h5>Signatures from customer</h5>
+                                                        
+                                                        <p id="signature">Is customer on site?</p>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                                      </div>
+                                                      <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                                      </div>
+                                                      
+                                                      <div class="form-group col-md-12" style="margin-top: 25px;">
+                                                        <!-- <label for="inputAddress">Materials</label> -->
+                                                        <input type="text" class="form-control" id="materials"
+                                                            placeholder="Enter the Materials" />
+                                                    </div>
+                                                   
+                                   </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for show content -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#showContent">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="showContent" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <form id=" formdata1">
+                    <div class="form-class align-items-center d-flex">
+                        <div class="form-group">
+                             <label for="exampleFormControlInput1">Template Name</label>
+                             <input type="text" class="form-control" id="" placeholder="">
+                         </div>
+</br>
+                        <div class="col-auto">
+                            <select class="form-control"  id="" style="margin-top:15px;">
+                               <option value="Choose Job Folder">--Choose status--</option> 
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                            </select>
+                        </div>
+                        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <?php include_once('footer.php') ?>

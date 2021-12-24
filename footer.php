@@ -191,14 +191,14 @@
       </div>
       <div class="modal-body">
         <div class="col-auto">
-                <select class="form-control mt-2" name="role-type" name="role" >
+                <select class="form-control mt-2" name="role-type" name="role"  id="jobfolder3">
                     <option value="0">Choose Job Folder</option>
-                    <option value="one" class="form-check-input" type="checkbox">Folder One</option>
+                    <!-- <option value="one" class="form-check-input" type="checkbox">Folder One</option>
                     <option value="Two">Folder Two</option>
                     <option value="Three">Folder Three</option>
                     <option value="Four">Folder Four</option>
                     <option value="Five">Folder Five</option>
-                    <option value="Six">Folder Six</option>
+                    <option value="Six">Folder Six</option> -->
 
                 </select>
             </div>
