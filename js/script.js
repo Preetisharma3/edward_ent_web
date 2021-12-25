@@ -2,7 +2,7 @@
 // Job Folder
 
 // var newData = "";
-
+gfhghgghj
 function fetchData() {
     var newData = ""
     fetch(`http://localhost/edward_ent/public/api/v1/show`, {
@@ -172,6 +172,7 @@ function fetchTemplate() {
 
 fetchTemplate();
 
+
 //GetQuestions
 function fetchQuestions() {
     var newData = "";
@@ -195,3 +196,4 @@ function fetchQuestions() {
 
 }
 fetchQuestions();
+
