@@ -36,7 +36,7 @@
                     <thead class="thead-dark " align="center">
                         <tr>
                             <th scope="col">Template name</th>
-                            <th scope="col">Active/Inactive</th>
+                            <th scope="col">Status</th>
 
                             <th scope="col">Action</th>
                         </tr>
@@ -104,37 +104,44 @@
                                                 <option value="0">--Select--</option>
                                             </select>
                                         </div>
-                                        <div class="form-check" style="margin-top:35px;margin-left: 10px;">
-                                            <input type="checkbox" class="form-check-input" id="required">
-                                            <label class="form-check-label" for="exampleCheck1">Required</label>            
+                                        <div class="form-check" style="margin-top:30px;margin-left: 10px;">
+                                            <!-- <input type="checkbox" class="form-check-input" id="required"> -->
+                                            <!-- <label class="form-check-label" for="exampleCheck1">Required</label>             -->
                                              </div> 
                                              </div>
                                              <div class="form-row">
-                                              <div class="form-check" style="margin-top:35px;margin-left: 10px;">
-                                                    <input type="checkbox" class="form-check-input" id="required">
+                                              <div class="form-check" style="margin-top:25px;margin-left: 10px;">
+                                                    <!-- <input type="checkbox" class="form-check-input" id="required"> -->
                                                     <label class="form-check-label" for="exampleCheck1"></label>            
                                                      </div> 
-                                            <div class="form-group col-md-11" style="margin-top:-65px;margin-left: 50px;">
-                                                <label for="inputAddress">Lable</label>
+                                            <!-- <div class="form-group col-md-11" style="margin-top:-65px;margin-left: 50px;">
+                                                <label for="inputAddress">Label</label>
                                                 <input type="text" class="form-control" id="lable"
                                                     placeholder="" />
-                                            </div>                                          
-                                             </div>
+                                            </div>                                           -->
+                                        </div>
+
+                                             <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                 <label for="inputEmail4">Answer</label>
+                                                <input type="text" class="form-control" id="tname"  />
+                                                </div>
+                                            </div>
                                              <div class="form-row">
                                                 <div class="form-group col-md-6">
-                                                    <label for="inputAddress2">Question</label>
+                                                    <!-- <label for="inputAddress2">Question</label>
                                                     <input type="text" class="form-control" id="question"
-                                                        placeholder="" />
-                                                </div>
-                                                <div class="form-group col-md-4 ">
+                                                        placeholder="" /> -->
+                                                </div> 
+                                                 <!-- <div class="form-group col-md-4 ">
                                                     <label for="gender">Question Type</label>
                                                     <select class="form-control" name="role" id="quetype">
                                                         <option value="0">--Select--</option>
                                                     </select>
-                                                </div>
+                                                </div>  -->
                                                 <div class="form-check" style="margin-top:35px;margin-left: 10px;">
-                                                    <input type="checkbox" class="form-check-input" id="required">
-                                                    <label class="form-check-label" for="exampleCheck1">Required</label>            
+                                                    <!-- <input type="checkbox" class="form-check-input" id="required"> -->
+                                                    <!-- <label class="form-check-label" for="exampleCheck1">Required</label>             -->
                                                      </div> 
                                                      </div>
                                                      <button type="button" class="btn btn-primary"style="margin-top:25px;">

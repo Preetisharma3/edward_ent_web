@@ -42,7 +42,7 @@ $current_page = $_SERVER['REQUEST_URI'];
     <li>
       <a class="<?php echo $current_page == '/crmproject33/pages/customer.php' ? 'active' : '' ?>" href="managementcategory.php">
         <i class='bx bx-pencil'></i>
-        <span class="links_name">Management Category</span>
+        <span class="links_name">Manage Categories</span>
       </a>
     </li>
     <li>
